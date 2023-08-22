@@ -1,0 +1,10 @@
+
+.container {
+    height: 100%;
+}
+
+@media screen and (max-height: 765px) {
+    .container {
+        height: fit-content;
+    }
+}
